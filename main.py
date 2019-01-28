@@ -1,11 +1,8 @@
-# all testing list and dictoniary
-Mylist = [1,2,5,6,88,88,2,2,98]
-Mydict = {"allo":"Bakra","mura":"bhindi"}
-
+# main funtion
 def _mode(paramlist):
     # Min and max of paramlist
-    Mylist_max = max(Mylist)
-    Mylist_min = min(Mylist)
+    Mylist_max = max(paramlist)
+    Mylist_min = min(paramlist)
 
     Result = {}
     Result_list_proccess = []
@@ -51,9 +48,3 @@ def _mode(paramlist):
     for k,v in Result.items():
         if v == max_val_of_result_procces:
             print(k)
-
-
-_mode(Mylist)
-
-
-       
