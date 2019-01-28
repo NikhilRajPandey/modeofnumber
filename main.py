@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 
 Mylist = [1,2,5,6,88,88,2]
+=======
+# all testing list and dictoniary
+Mylist = [1,2,5,6,88,88,2,2]
+>>>>>>> 9f06aa83dfecb43ce7d4000d9a15c1a44f2cf5fc
 Mydict = {"allo":"Bakra","mura":"bhindi"}
 
 def _mode(paramlist):
