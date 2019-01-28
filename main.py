@@ -37,21 +37,21 @@ def _mode(paramlist):
                 Result_list_proccess.append(i)
             # print(Value_of_current_num)
 
-    print(Result)
+    # print(Result)
 
     # Giving The Result
-    # Result_procces = []
+    Result_procces = []
 
-    # for num in Result.values():
-    #     print(num)
+    for num in Result.values():
+        Result_procces.append(int(num))
 
-    # max_val_of_result_procces = max(Result_procces)
+    max_val_of_result_procces = max(Result_procces)
+    # print(max_val_of_result_procces)
 
-    # for keys in Result:
-    #     resultskeys = keys.find(max_val_of_result_procces)
+    for k,v in Result.items():
+        if v == max_val_of_result_procces:
+            print(k)
 
-    #     if resultskeys != -1:
-    #         print(keys)
 
 _mode(Mylist)
 
