@@ -1,4 +1,4 @@
-
+# all testing list and dictoniary
 Mylist = [1,2,5,6,88,88,2,2]
 Mydict = {"allo":"Bakra","mura":"bhindi"}
 
